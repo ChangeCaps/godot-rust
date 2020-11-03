@@ -1,0 +1,16 @@
+[gd_scene format=2]
+
+[node name="BuildTarget" type="HBoxContainer"]
+margin_right = 113.0
+margin_bottom = 24.0
+
+[node name="CheckBox" type="CheckBox" parent="."]
+margin_right = 24.0
+margin_bottom = 24.0
+
+[node name="Label" type="Label" parent="."]
+margin_left = 28.0
+margin_top = 5.0
+margin_right = 113.0
+margin_bottom = 19.0
+text = "Windows x64"

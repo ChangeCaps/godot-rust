@@ -1,0 +1,5 @@
+[gd_resource type="GDNativeLibrary" format=2]
+
+[resource]
+entry/Windows.64 = "res://gdrust/lib/x86_64-pc-windows-msvc/gd_crate.dll"
+dependency/Windows.64 = [  ]

@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/gd_rust/build_target.tscn" type="PackedScene" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BuildTarget" parent="VBoxContainer" instance=ExtResource( 1 )]
+
+[node name="BuildTarget2" parent="VBoxContainer" instance=ExtResource( 1 )]
+margin_top = 28.0
+margin_bottom = 52.0
+
+[node name="BuildTarget3" parent="VBoxContainer" instance=ExtResource( 1 )]
+margin_top = 56.0
+margin_bottom = 80.0
+
+[node name="BuildTarget4" parent="VBoxContainer" instance=ExtResource( 1 )]
+margin_top = 84.0
+margin_bottom = 108.0
+
+[node name="BuildTarget5" parent="VBoxContainer" instance=ExtResource( 1 )]
+margin_top = 112.0
+margin_bottom = 136.0
